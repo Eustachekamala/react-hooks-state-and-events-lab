@@ -44,6 +44,12 @@ span[role="image"] {
   transition: all 0.3s;
 }
 
+.App.light {
+  --font-color: rgb(33, 33, 33);
+  --background: rgb(255, 255, 255);
+  --background--light: rgb(230, 230, 230);
+}
+
 .App {
   margin: 2rem auto;
   padding: 1rem 2rem;
@@ -110,4 +116,14 @@ header button {
   justify-self: end;
   color: var(--font-color-light);
   font-size: 0.8em;
+}
+
+.add-to-cart {
+  background-color: rgb(237, 237, 32); /*yellow */
+  color: black;
+}
+
+.remove-from-cart {
+  background-color: #dc3545; /* Red for removing */
+  color: white;
 }
